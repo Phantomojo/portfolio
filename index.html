@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhantoMojo | Digital Intelligence Operative</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <!-- Header Terminal -->
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="close"></span>
+                    <span class="minimize"></span>
+                    <span class="maximize"></span>
+                </div>
+                <div class="terminal-title">PhantoMojo@system:~$</div>
+            </div>
+            <div class="terminal-content">
+                <div class="typing-text" id="header-text"></div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="terminal-nav">
+            <div class="nav-item active" data-section="about">
+                <i class="fas fa-user-secret"></i> ABOUT
+            </div>
+            <div class="nav-item" data-section="projects">
+                <i class="fas fa-project-diagram"></i> PROJECTS
+            </div>
+            <div class="nav-item" data-section="skills">
+                <i class="fas fa-tools"></i> SKILLS
+            </div>
+            <div class="nav-item" data-section="contact">
+                <i class="fas fa-envelope"></i> CONTACT
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section id="about" class="content-section active">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="close"></span>
+                            <span class="minimize"></span>
+                            <span class="maximize"></span>
+                        </div>
+                        <div class="terminal-title">about_me.exe</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command-line">
+                            <span class="prompt">root@phantomojo:~$</span>
+                            <span class="command">whoami</span>
+                        </div>
+                        <div class="output">
+                            <h2>Michael Irungu Muriithi (PhantoMojo)</h2>
+                            <p class="subtitle">Digital Intelligence Operative | Cybersecurity Professional | AI Specialist</p>
+                            
+                            <div class="status-grid">
+                                <div class="status-item">
+                                    <span class="status-label">CLEARANCE:</span>
+                                    <span class="status-value black-ops">BLACK OPS</span>
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">STATUS:</span>
+                                    <span class="status-value online">ONLINE</span>
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">LOCATION:</span>
+                                    <span class="status-value">REMOTE | KENYA</span>
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">SECURITY:</span>
+                                    <span class="status-value paranoid">MAXIMUM PARANOIA</span>
+                                </div>
+                            </div>
+
+                            <div class="about-text">
+                                <p>I'm a multi-skilled, highly adaptable professional thriving at the intersection of <strong>software development</strong>, <strong>cybersecurity</strong>, and <strong>AI-powered tools</strong>.</p>
+                                
+                                <p>My approach—often called "vibe coding"—blends technical precision with creative intuition, building robust, human-centered solutions.</p>
+                                
+                                <p>Think of me as the <strong>digital architect</strong> who doesn't just follow the blueprint—I redesign the entire building while it's still standing.</p>
+                            </div>
+
+                            <div class="philosophy">
+                                <h3>🎯 Mission Statement</h3>
+                                <blockquote>"I don't chase the spotlight — I rewire the shadows."</blockquote>
+                                <blockquote>"The best code is the code that doesn't exist yet."</blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="content-section">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="close"></span>
+                            <span class="minimize"></span>
+                            <span class="maximize"></span>
+                        </div>
+                        <div class="terminal-title">projects_showcase.exe</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command-line">
+                            <span class="prompt">root@phantomojo:~$</span>
+                            <span class="command">ls -la /projects/</span>
+                        </div>
+                        <div class="output">
+                            <div class="project-grid">
+                                <!-- HedgeFund-Lite -->
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3>📈 HEDGEFUND-LITE</h3>
+                                        <span class="project-status online">ONLINE</span>
+                                    </div>
+                                    <div class="project-content">
+                                        <p><strong>Production-hardened algorithmic trading system</strong> with AI integration.</p>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">Python</span>
+                                            <span class="tech-tag">FastAPI</span>
+                                            <span class="tech-tag">TensorFlow</span>
+                                            <span class="tech-tag">PostgreSQL</span>
+                                        </div>
+                                        <a href="https://github.com/Phantomojo/hedgefund-lite" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i> View Project
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- HRM -->
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3>🧠 HRM</h3>
+                                        <span class="project-status active">ACTIVE</span>
+                                    </div>
+                                    <div class="project-content">
+                                        <p><strong>Hierarchical Reasoning Model</strong> for advanced AI decision-making.</p>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">Python</span>
+                                            <span class="tech-tag">PyTorch</span>
+                                            <span class="tech-tag">Scikit-learn</span>
+                                            <span class="tech-tag">NumPy</span>
+                                        </div>
+                                        <a href="https://github.com/Phantomojo/HRM" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i> View Project
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- GhostWire -->
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3>👻 GHOSTWIRE</h3>
+                                        <span class="project-status stealth">STEALTH</span>
+                                    </div>
+                                    <div class="project-content">
+                                        <p><strong>Secure mesh communication system</strong> for anonymous threat intelligence.</p>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">TypeScript</span>
+                                            <span class="tech-tag">Node.js</span>
+                                            <span class="tech-tag">WebRTC</span>
+                                            <span class="tech-tag">Crypto</span>
+                                        </div>
+                                        <a href="https://github.com/Phantomojo/GhostWire-secure-mesh-communication" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i> View Project
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- JARVIS -->
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3>🤖 JARVIS</h3>
+                                        <span class="project-status active">ACTIVE</span>
+                                    </div>
+                                    <div class="project-content">
+                                        <p><strong>AI-powered personal assistant system</strong> with voice control.</p>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">Python</span>
+                                            <span class="tech-tag">Speech Recognition</span>
+                                            <span class="tech-tag">NLP</span>
+                                            <span class="tech-tag">FastAPI</span>
+                                        </div>
+                                        <a href="https://github.com/Phantomojo/JARVIS" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i> View Project
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="content-section">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="close"></span>
+                            <span class="minimize"></span>
+                            <span class="maximize"></span>
+                        </div>
+                        <div class="terminal-title">skills_arsenal.exe</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command-line">
+                            <span class="prompt">root@phantomojo:~$</span>
+                            <span class="command">cat /skills/arsenal.txt</span>
+                        </div>
+                        <div class="output">
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h3>Languages & Frameworks</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Python</span>
+                                        <span class="skill-tag">TypeScript</span>
+                                        <span class="skill-tag">FastAPI</span>
+                                        <span class="skill-tag">SQL</span>
+                                        <span class="skill-tag">Bash</span>
+                                        <span class="skill-tag">PowerShell</span>
+                                        <span class="skill-tag">HTML</span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category">
+                                    <h3>AI & Machine Learning</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">TensorFlow</span>
+                                        <span class="skill-tag">PyTorch</span>
+                                        <span class="skill-tag">Scikit-learn</span>
+                                        <span class="skill-tag">OpenAI</span>
+                                        <span class="skill-tag">Neural Networks</span>
+                                        <span class="skill-tag">Algorithmic Trading</span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category">
+                                    <h3>Security & Tools</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Kali Linux</span>
+                                        <span class="skill-tag">Ubuntu</span>
+                                        <span class="skill-tag">Wireshark</span>
+                                        <span class="skill-tag">Nmap</span>
+                                        <span class="skill-tag">Metasploit</span>
+                                        <span class="skill-tag">Penetration Testing</span>
+                                        <span class="skill-tag">DFIR</span>
+                                        <span class="skill-tag">Threat Intelligence</span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category">
+                                    <h3>Development Tools</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Git</span>
+                                        <span class="skill-tag">GitHub</span>
+                                        <span class="skill-tag">VS Code</span>
+                                        <span class="skill-tag">Cursor</span>
+                                        <span class="skill-tag">Docker</span>
+                                        <span class="skill-tag">Kubernetes</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="content-section">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="close"></span>
+                            <span class="minimize"></span>
+                            <span class="maximize"></span>
+                        </div>
+                        <div class="terminal-title">contact_protocol.exe</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command-line">
+                            <span class="prompt">root@phantomojo:~$</span>
+                            <span class="command">./initiate_contact.sh</span>
+                        </div>
+                        <div class="output">
+                            <div class="contact-grid">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="contact-info">
+                                        <h3>Email</h3>
+                                        <a href="mailto:mirungu015@proton.me">mirungu015@proton.me</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <i class="fab fa-linkedin"></i>
+                                    <div class="contact-info">
+                                        <h3>LinkedIn</h3>
+                                        <a href="https://www.linkedin.com/in/michael-irungu-8a233926a" target="_blank">Michael Irungu Muriithi</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <i class="fab fa-twitter"></i>
+                                    <div class="contact-info">
+                                        <h3>Twitter</h3>
+                                        <a href="https://twitter.com/PhantoMojo" target="_blank">@PhantoMojo</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <i class="fab fa-github"></i>
+                                    <div class="contact-info">
+                                        <h3>GitHub</h3>
+                                        <a href="https://github.com/Phantomojo" target="_blank">Phantomojo</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="availability">
+                                <h3>🎯 Available For</h3>
+                                <div class="availability-tags">
+                                    <span class="availability-tag">Collaborations</span>
+                                    <span class="availability-tag">Consulting</span>
+                                    <span class="availability-tag">Mentoring</span>
+                                    <span class="availability-tag">Security Audits</span>
+                                    <span class="availability-tag">AI Projects</span>
+                                    <span class="availability-tag">Cybersecurity</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
