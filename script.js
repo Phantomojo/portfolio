@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typing animation for header
     const headerText = document.getElementById('header-text');
     const texts = [
-        "Hi, I'm Michael Irungu Muriithi (PhantoMojo)",
-        "Software Developer | Cybersecurity Pro | AI Tools Specialist",
-        "Remote-Ready | Creative Technologist | Evolving Architect of Meaning"
+        "M.I. Muriithi — Phantomojo",
+        "Security engineer — Rust / P2P / applied cryptography",
+        "Nairobi, Kenya — GhostWire / CERBERUS"
     ];
     
     let textIndex = 0;
