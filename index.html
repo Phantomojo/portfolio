@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhantoMojo | Digital Intelligence Operative</title>
+    <title>Phantomojo — M.I. Muriithi | Security Engineer</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -18,7 +18,7 @@
                     <span class="minimize"></span>
                     <span class="maximize"></span>
                 </div>
-                <div class="terminal-title">PhantoMojo@system:~$</div>
+                <div class="terminal-title">Phantomojo@system:~$</div>
             </div>
             <div class="terminal-content">
                 <div class="typing-text" id="header-text"></div>
@@ -29,6 +29,9 @@
         <nav class="terminal-nav">
             <div class="nav-item active" data-section="about">
                 <i class="fas fa-user-secret"></i> ABOUT
+            </div>
+            <div class="nav-item" data-section="work">
+                <i class="fas fa-briefcase"></i> WORK
             </div>
             <div class="nav-item" data-section="projects">
                 <i class="fas fa-project-diagram"></i> PROJECTS
@@ -60,13 +63,13 @@
                             <span class="command">whoami</span>
                         </div>
                         <div class="output">
-                            <h2>Michael Irungu Muriithi (PhantoMojo)</h2>
-                            <p class="subtitle">Digital Intelligence Operative | Cybersecurity Professional | AI Specialist</p>
+                            <h2>Michael Irungu Muriithi (M.I. Muriithi, Phantomojo)</h2>
+                            <p class="subtitle">Security engineer — decentralized systems, applied cryptography, threat intelligence</p>
                             
                             <div class="status-grid">
                                 <div class="status-item">
-                                    <span class="status-label">CLEARANCE:</span>
-                                    <span class="status-value black-ops">BLACK OPS</span>
+                                    <span class="status-label">HANDLE:</span>
+                                    <span class="status-value">PHANTOMOJO</span>
                                 </div>
                                 <div class="status-item">
                                     <span class="status-label">STATUS:</span>
@@ -74,26 +77,50 @@
                                 </div>
                                 <div class="status-item">
                                     <span class="status-label">LOCATION:</span>
-                                    <span class="status-value">REMOTE | KENYA</span>
+                                    <span class="status-value">NAIROBI, KENYA</span>
                                 </div>
                                 <div class="status-item">
-                                    <span class="status-label">SECURITY:</span>
-                                    <span class="status-value paranoid">MAXIMUM PARANOIA</span>
+                                    <span class="status-label">FOCUS:</span>
+                                    <span class="status-value">CYBERSEC / RUST / P2P</span>
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">AFFILIATION:</span>
+                                    <span class="status-value">OBSIDIAN DIRECTIVE</span>
                                 </div>
                             </div>
 
                             <div class="about-text">
-                                <p>I'm a multi-skilled, highly adaptable professional thriving at the intersection of <strong>software development</strong>, <strong>cybersecurity</strong>, and <strong>AI-powered tools</strong>.</p>
-                                
-                                <p>My approach—often called "vibe coding"—blends technical precision with creative intuition, building robust, human-centered solutions.</p>
-                                
-                                <p>Think of me as the <strong>digital architect</strong> who doesn't just follow the blueprint—I redesign the entire building while it's still standing.</p>
+                                <p>Security engineer building decentralized, offline-first systems and adaptive threat-intelligence tooling. Flagship work: <strong>GhostWire</strong> (Rust/libp2p mesh protocol) and <strong>CERBERUS</strong> (bio-adaptive IoT honeynet).</p>
+                                <p>BSc Cybersecurity &amp; Digital Forensics, Open University of Kenya — 2026 convocation. Founder, Obsidian Directive. Open-source portfolio on <a href="https://codeberg.org/PHANTOMOJO" target="_blank">Codeberg</a> and <a href="https://github.com/Phantomojo" target="_blank">GitHub</a>.</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                            <div class="philosophy">
-                                <h3>🎯 Mission Statement</h3>
-                                <blockquote>"I don't chase the spotlight — I rewire the shadows."</blockquote>
-                                <blockquote>"The best code is the code that doesn't exist yet."</blockquote>
+
+            <!-- Work Section -->
+            <section id="work" class="content-section">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="close"></span>
+                            <span class="minimize"></span>
+                            <span class="maximize"></span>
+                        </div>
+                        <div class="terminal-title">experience.log</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command-line">
+                            <span class="prompt">root@phantomojo:~$</span>
+                            <span class="command">cat /work/experience.log</span>
+                        </div>
+                        <div class="output">
+                            <div class="about-text">
+                                <p><strong>2026 — Independent engagement work</strong><br>
+                                Event-ticketing backend (Node 20, Express 4, PostgreSQL, 70 tests) and Next.js 16 / React 19 frontend integration: discovery, booking, ticketing, waitlist, door check-in, owner reporting, refund ledger, container and ops docs. Private engagement code; no public repo.</p>
+                                <p><strong>Founder — Obsidian Directive</strong><br>
+                                Cybersecurity collective and CTF training.</p>
                             </div>
                         </div>
                     </div>
@@ -162,16 +189,20 @@
                                 <div class="project-card">
                                     <div class="project-header">
                                         <h3>👻 GHOSTWIRE</h3>
-                                        <span class="project-status stealth">STEALTH</span>
+                                        <span class="project-status active">ACTIVE</span>
                                     </div>
                                     <div class="project-content">
-                                        <p><strong>Secure mesh communication system</strong> for anonymous threat intelligence.</p>
+                                        <p><strong>Decentralized, offline-first encrypted P2P mesh protocol</strong> in Rust: libp2p GossipSub/Kademlia, XChaCha20-Poly1305, hybrid X25519 + ML-KEM-768, four-layer routing.</p>
                                         <div class="project-tech">
-                                            <span class="tech-tag">TypeScript</span>
-                                            <span class="tech-tag">Node.js</span>
-                                            <span class="tech-tag">WebRTC</span>
-                                            <span class="tech-tag">Crypto</span>
+                                            <span class="tech-tag">Rust</span>
+                                            <span class="tech-tag">libp2p</span>
+                                            <span class="tech-tag">XChaCha20-Poly1305</span>
+                                            <span class="tech-tag">ML-KEM-768</span>
+                                            <span class="tech-tag">DTN</span>
                                         </div>
+                                        <a href="https://www.ghostwire.cc/" target="_blank" class="project-link">
+                                            <i class="fas fa-globe"></i> Website
+                                        </a>
                                         <a href="https://github.com/Phantomojo/GhostWire-secure-mesh-communication" target="_blank" class="project-link">
                                             <i class="fab fa-github"></i> View Project
                                         </a>
@@ -193,6 +224,25 @@
                                             <span class="tech-tag">FastAPI</span>
                                         </div>
                                         <a href="https://github.com/Phantomojo/JARVIS" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i> View Project
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- CERBERUS -->
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3>🐺 CERBERUS</h3>
+                                        <span class="project-status active">RESEARCH</span>
+                                    </div>
+                                    <div class="project-content">
+                                        <p><strong>Bio-adaptive IoT honeynet framework</strong>: fingerprint morphing, quorum-sensing correlation, canary tokens and a local analytics dashboard.</p>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">C</span>
+                                            <span class="tech-tag">Python</span>
+                                            <span class="tech-tag">nginx</span>
+                                            <span class="tech-tag">Docker</span>
+                                        </div>
+                                        <a href="https://github.com/Phantomojo/cerberus-honeypot" target="_blank" class="project-link">
                                             <i class="fab fa-github"></i> View Project
                                         </a>
                                     </div>
@@ -230,6 +280,8 @@
                                         <span class="skill-tag">SQL</span>
                                         <span class="skill-tag">Bash</span>
                                         <span class="skill-tag">PowerShell</span>
+                                        <span class="skill-tag">Rust</span>
+                                        <span class="skill-tag">C</span>
                                         <span class="skill-tag">HTML</span>
                                     </div>
                                 </div>
@@ -257,6 +309,8 @@
                                         <span class="skill-tag">Penetration Testing</span>
                                         <span class="skill-tag">DFIR</span>
                                         <span class="skill-tag">Threat Intelligence</span>
+                                        <span class="skill-tag">libp2p</span>
+                                        <span class="skill-tag">Post-quantum crypto</span>
                                     </div>
                                 </div>
 
